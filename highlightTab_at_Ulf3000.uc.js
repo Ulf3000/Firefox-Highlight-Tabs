@@ -25,64 +25,64 @@ var highlightTab_at_Ulf3000 = {
 
 		let row1 = rows.appendChild(document.createXULElement('row'));
 		let row1i1 = row1.appendChild(document.createXULElement('menuitem'));
-		row1i1.setAttribute("oncommand", "highlightTab_at_Ulf3000.highlightTabFromMenu(event, '#F04F61')");
+		row1i1.addEventListener('command', event => { highlightTab_at_Ulf3000.highlightTabFromMenu(event, '#F04F61') }, false);
 		row1i1.setAttribute('style', 'background : #F04F61 !important;-moz-appearance: unset !important;min-height: 17px !important;');
 		let row1i2 = row1.appendChild(document.createXULElement('menuitem'));
-		row1i2.setAttribute("oncommand", "highlightTab_at_Ulf3000.highlightTabFromMenu(event, '#f8ada8')");
+		row1i2.addEventListener('command', event => { highlightTab_at_Ulf3000.highlightTabFromMenu(event, '#f8ada8') }, false);
 		row1i2.setAttribute('style', 'background : #f8ada8 !important;-moz-appearance: unset !important;min-height: 17px !important;');
 
 		let row2 = rows.appendChild(document.createXULElement('row'));
 		let row2i1 = row2.appendChild(document.createXULElement('menuitem'));
-		row2i1.setAttribute("oncommand", "highlightTab_at_Ulf3000.highlightTabFromMenu(event, '#f48121')");
+		row2i1.addEventListener('command', event => { highlightTab_at_Ulf3000.highlightTabFromMenu(event, '#f48121') }, false);
 		row2i1.setAttribute('style', 'background : #f48121 !important;-moz-appearance: unset !important;min-height: 17px !important;');
 		let row2i2 = row2.appendChild(document.createXULElement('menuitem'));
-		row2i2.setAttribute("oncommand", "highlightTab_at_Ulf3000.highlightTabFromMenu(event, '#FAAD5F')");
+		row2i2.addEventListener('command', event => { highlightTab_at_Ulf3000.highlightTabFromMenu(event, '#FAAD5F')	}, false);
 		row2i2.setAttribute('style', 'background : #FAAD5F !important;-moz-appearance: unset !important;min-height: 17px !important;');
 
 		let row3 = rows.appendChild(document.createXULElement('row'));
 		let row3i1 = row3.appendChild(document.createXULElement('menuitem'));
-		row3i1.setAttribute("oncommand", "highlightTab_at_Ulf3000.highlightTabFromMenu(event, '#FFC94D')");
+		row3i1.addEventListener('command', event => { highlightTab_at_Ulf3000.highlightTabFromMenu(event, '#FFC94D')	}, false);
 		row3i1.setAttribute('style', 'background : #FFC94D !important;-moz-appearance: unset !important;min-height: 17px !important;');
 		let row3i2 = row3.appendChild(document.createXULElement('menuitem'));
-		row3i2.setAttribute("oncommand", "highlightTab_at_Ulf3000.highlightTabFromMenu(event, '#FFE1A5')");
+		row3i2.addEventListener('command', event => { highlightTab_at_Ulf3000.highlightTabFromMenu(event, '#FFE1A5')	}, false);
 		row3i2.setAttribute('style', 'background : #FFE1A5 !important;-moz-appearance: unset !important;min-height: 17px !important;');
 
 		let row4 = rows.appendChild(document.createXULElement('row'));
 		let row4i1 = row4.appendChild(document.createXULElement('menuitem'));
-		row4i1.setAttribute("oncommand", "highlightTab_at_Ulf3000.highlightTabFromMenu(event, '#A4CF4D')");
+		row4i1.addEventListener('command', event => { highlightTab_at_Ulf3000.highlightTabFromMenu(event, '#A4CF4D')	}, false);
 		row4i1.setAttribute('style', 'background : #A4CF4D !important;-moz-appearance: unset !important;min-height: 17px !important;');
 		let row4i2 = row4.appendChild(document.createXULElement('menuitem'));
-		row4i2.setAttribute("oncommand", "highlightTab_at_Ulf3000.highlightTabFromMenu(event, '#C5DE92')");
+		row4i2.addEventListener('command', event => { highlightTab_at_Ulf3000.highlightTabFromMenu(event, '#C5DE92')	}, false);
 		row4i2.setAttribute('style', 'background : #C5DE92 !important;-moz-appearance: unset !important;min-height: 17px !important;');
 
 		let row5 = rows.appendChild(document.createXULElement('row'));
 		let row5i1 = row5.appendChild(document.createXULElement('menuitem'));
-		row5i1.setAttribute("oncommand", "highlightTab_at_Ulf3000.highlightTabFromMenu(event, '#32B0CF')");
+		row5i1.addEventListener('command', event => { highlightTab_at_Ulf3000.highlightTabFromMenu(event, '#32B0CF')	}, false);
 		row5i1.setAttribute('style', 'background : #32B0CF !important;-moz-appearance: unset !important;min-height: 17px !important;');
 		let row5i2 = row5.appendChild(document.createXULElement('menuitem'));
-		row5i2.setAttribute("oncommand", "highlightTab_at_Ulf3000.highlightTabFromMenu(event, '#8dcee2')");
+		row5i2.addEventListener('command', event => { highlightTab_at_Ulf3000.highlightTabFromMenu(event, '#8dcee2')	}, false);
 		row5i2.setAttribute('style', 'background : #8dcee2 !important;-moz-appearance: unset !important;min-height: 17px !important;');
 
 		let row6 = rows.appendChild(document.createXULElement('row'));
 		let row6i1 = row6.appendChild(document.createXULElement('menuitem'));
-		row6i1.setAttribute("oncommand", "highlightTab_at_Ulf3000.highlightTabFromMenu(event, '#8c58a8')");
+		row6i1.addEventListener('command', event => { highlightTab_at_Ulf3000.highlightTabFromMenu(event, '#8c58a8')	}, false);
 		row6i1.setAttribute('style', 'background : #8c58a8 !important;-moz-appearance: unset !important;min-height: 17px !important;');
 		let row6i2 = row6.appendChild(document.createXULElement('menuitem'));
-		row6i2.setAttribute("oncommand", "highlightTab_at_Ulf3000.highlightTabFromMenu(event, '#D4B8CF')");
+		row6i2.addEventListener('command', event => { highlightTab_at_Ulf3000.highlightTabFromMenu(event, '#D4B8CF')	}, false);
 		row6i2.setAttribute('style', 'background : #D4B8CF !important;-moz-appearance: unset !important;min-height: 17px !important;');
 
 		let row7 = rows.appendChild(document.createXULElement('row'));
 		let row7i1 = row7.appendChild(document.createXULElement('menuitem'));
-		row7i1.setAttribute("oncommand", "highlightTab_at_Ulf3000.highlightTabFromMenu(event, '#A27D60')");
+		row7i1.addEventListener('command', event => { highlightTab_at_Ulf3000.highlightTabFromMenu(event, '#A27D60')	}, false);
 		row7i1.setAttribute('style', 'background : #A27D60 !important;-moz-appearance: unset !important;min-height: 17px !important;');
 		let row7i2 = row7.appendChild(document.createXULElement('menuitem'));
-		row7i2.setAttribute("oncommand", "highlightTab_at_Ulf3000.highlightTabFromMenu(event, '#C7B49C')");
+		row7i2.addEventListener('command', event => { highlightTab_at_Ulf3000.highlightTabFromMenu(event, '#C7B49C')	}, false);
 		row7i2.setAttribute('style', 'background : #C7B49C !important;-moz-appearance: unset !important;min-height: 17px !important;');
 
 
 
 		let noColorItem = menupopup.appendChild(document.createXULElement('menuitem'));
-		noColorItem.setAttribute("oncommand", "highlightTab_at_Ulf3000.highlightTabFromMenu(event, '')");
+		noColorItem.addEventListener('command', event => { highlightTab_at_Ulf3000.highlightTabFromMenu(event, '')	}, false);
 		noColorItem.setAttribute('label', 'None');
 
 
@@ -109,6 +109,7 @@ var highlightTab_at_Ulf3000 = {
 		};
 	},
 	clickTab: function (e) {
+		//console.log("CLICKTABBBBBBBBBBBBBBBBBB")
 		//e.preventDefault();  // ToDO ??? still selects the tab
 		if (e.button == 0 && e.altKey) {
 			//console.log(e)
